@@ -19,7 +19,9 @@ Therefore, this plugin is designed to be less obtrusive than others. Visitors wi
 
 http://www.youtube.com/watch?v=9hLmX9FX2KA
 
-[Video by Silktide](http://silktide.com/cookielaw/resources/video)
+http://www.youtube.com/watch?v=loVjrNFJAik
+
+[Videos by Silktide](http://silktide.com/cookielaw/resources/video)
 
 **NOTES**
 
