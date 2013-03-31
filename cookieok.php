@@ -4,7 +4,7 @@ Plugin Name: Cookie OK
 Plugin URI: http://status301.net/wordpress-plugins/cookie-ok/
 Description: Add the CookieOK script to your site.
 Author: RavanH, Digital Morphosis
-Version: 0.2
+Version: 0.3
 Author URI: http://digital-morphosis.com
 */
 
