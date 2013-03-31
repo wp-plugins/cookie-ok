@@ -3,7 +3,7 @@ Contributors: RavanH, Digital Morphosis
 Tags: cookie, cookies, eu cookie law
 Requires at least: 2.9
 Tested up to: 3.5.1
-Stable tag: 0.3
+Stable tag: 0.4
 
 Simply add the CookieOK script to your site to comply with the new EU cookie law.
 
@@ -67,9 +67,9 @@ Same as above but do a **Network Activate** to activate the cookie notification 
 
 == Changelog ==
 
-= 0.3 =
+= 0.4 =
 
-* Switched to eu_cookie_notify ID
+* Appended div with eu_cookie_notify ID
 
 = 0.2 =
 
