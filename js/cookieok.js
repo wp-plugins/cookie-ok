@@ -20,7 +20,7 @@ var _cookieOK = {accepted:false, showDecline:false, declined:false};
 			bodyMargin = parseInt($("body").css("margin-top"), 10);
 		}
 
-		var barHeight = $("#cookieok_bar").height();
+		var barHeight = $("#eu_cookie_notify").height();
 		var newMargin = bodyMargin + barHeight;
 		$("body").css("margin-top", newMargin);
 	}
@@ -31,25 +31,25 @@ var _cookieOK = {accepted:false, showDecline:false, declined:false};
 			return;
 		}
 		var introText = "On 26 May 2011, the rules about cookies on websites changed. This site uses cookies. We have already set cookies which are essential for the operation of this site.";
-		var barHTML = "<div id='cookieok_bar'>"
-		+ "<p class='cookieok_intro'>" + introText + " <a href='http://cookieok.eu/cookie-rules-regulations' class='more' target='_blank'>More Information</a></p>"
-		+ "<p class='cookieok_accept'><input type='checkbox' id='cookieok_check'/><label for='cookieok_check'>I accept additional cookies from this site used to support optional features of the site or to gather anonymous usage statistics we use to improve the site</label></p>";
+		var barHTML = "<div id='eu_cookie_notify'>"
+		+ "<p class='eu_cookie_intro'>" + introText + " <a href='http://cookieok.eu/cookie-rules-regulations' class='more' target='_blank'>More Information</a></p>"
+		+ "<p class='eu_cookie_accept'><input type='checkbox' id='eu_cookie_check'/><label for='eu_cookie_check'>I accept additional cookies from this site used to support optional features of the site or to gather anonymous usage statistics we use to improve the site</label></p>";
 		if (_cookieOK.showDecline){
-			barHTML += "<p class='cookieok_decline'><input type='checkbox' id='cookieok_decline'/><label for='cookieok_decline'>I do not wish you to set additional cookies on this visit and I understand that this may affect my experience of the site or the features available to me</label></p>";
+			barHTML += "<p class='eu_cookie_decline'><input type='checkbox' id='eu_cookie_decline'/><label for='eu_cookie_decline'>I do not wish you to set additional cookies on this visit and I understand that this may affect my experience of the site or the features available to me</label></p>";
 		}
 		barHTML += "<a href='http://cookieok.eu' class='site' target='_blank'>cookieok.eu</a></div>";
 
 		$("body").append(barHTML);
 		
 
-		$('#cookieok_check').change(function(){
+		$('#eu_cookie_check').change(function(){
 			if ($(this).prop("checked")){
 				$.cookie("_cookieok", "1", {path:'/', expires: 365*2 });
 				window.location.href = window.location.href;
 			}
 		});
 
-		$('#cookieok_decline').change(function(){
+		$('#eu_cookie_decline').change(function(){
 			if ($(this).prop("checked")){
 				$.cookie("_cookieok", "0");
 				window.location.href = window.location.href;
