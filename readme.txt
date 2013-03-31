@@ -2,7 +2,7 @@
 Contributors: RavanH, Digital Morphosis
 Tags: cookie, cookies, eu cookie law
 Requires at least: 2.9
-Tested up to: 3.4.2
+Tested up to: 3.5.1
 Stable tag: 0.3
 
 Simply add the CookieOK script to your site to comply with the new EU cookie law.
