@@ -3,7 +3,7 @@ Contributors: RavanH, Digital Morphosis
 Tags: cookie, cookies, eu cookie law
 Requires at least: 2.9
 Tested up to: 4.0
-Stable tag: 0.4
+Stable tag: 0.5
 
 Simply add the CookieOK script to your site to comply with the new EU cookie law.
 
@@ -14,8 +14,6 @@ This very simple plugins places a notification above each page about cookie usag
 Stricly speaking, this might not be seen as a full compliance with the EU law 'to the letter' because that would mean either disabling large parts of your WordPress site or simply blocking visitors from browsing your site until they approve cookie usage. In both cases, your site will become very user unfriendly. 
 
 Therefore, this plugin is designed to be less obtrusive than others. Visitors will see a small band above each page with a notice about cookies being used which they can accept, after which they will not see the notification any more. But even if they ignore the message, they will still be able to browse your site. Nobody will be blocked at any time.
-
-http://www.youtube.com/watch?v=arWJA0jVPAc
 
 http://www.youtube.com/watch?v=9hLmX9FX2KA
 

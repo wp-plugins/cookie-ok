@@ -10,15 +10,9 @@
 }
 
 #cookieok_bar {
-	position:fixed;
-	_position: absolute;
-	top:0;
-	left:0;
 	padding:0px;
-	width:100%;
 	color: #424F25;
 	font-family: Arial, sans-serif;
-	border-bottom: 1px solid #000;
 	font-size:14px;
 	z-index:9999;
 	
@@ -65,10 +59,10 @@
 
 #cookieok_bar label {
 	padding-left: 4px;
-	vertical-align: bottom;
+	vertical-align: top;
 }
 
-#cookieok_bar a.site {
+#cookieok_bar a.link {
 	position: absolute;
 	right: 10px;
 	bottom: 4px;
