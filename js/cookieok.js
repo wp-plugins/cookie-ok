@@ -1,5 +1,3 @@
-var _cookieOK = {accepted:false, showDecline:false, declined:false};
-
 (function($){
 	if (typeof cookieOKOptions != 'undefined'){
 		$.extend(_cookieOK, cookieOKOptions);
@@ -25,7 +23,7 @@ var _cookieOK = {accepted:false, showDecline:false, declined:false};
 		$("body").css("margin-top", newMargin);
 	}
 
-	$('<link />',{href:'http://cookieok.eu/bar/css/cookieok.css',media:'screen',rel:'stylesheet',type:'text/css'}).appendTo('head');
+	$('<link />',{href:_cookieOKcss,media:'screen',rel:'stylesheet',type:'text/css'}).appendTo('head');
 	$(document).ready (function (){
 		if (_cookieOK.accepted || _cookieOK.declined){
 			return;
@@ -61,4 +59,3 @@ var _cookieOK = {accepted:false, showDecline:false, declined:false};
 		});
 	});
 })(jQuery);
-

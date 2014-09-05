@@ -2,7 +2,7 @@
 Contributors: RavanH, Digital Morphosis
 Tags: cookie, cookies, eu cookie law
 Requires at least: 2.9
-Tested up to: 3.5.1
+Tested up to: 4.0
 Stable tag: 0.4
 
 Simply add the CookieOK script to your site to comply with the new EU cookie law.
@@ -66,6 +66,11 @@ Same as above but do a **Network Activate** to activate the cookie notification 
 
 
 == Changelog ==
+
+= 0.5 =
+
+* Update jQuery Cookie script to 1.4.1
+* Local stylesheet (adapted for Twenty Fourteen)
 
 = 0.4 =
 
