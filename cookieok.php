@@ -14,7 +14,7 @@ function cookieok_print_vars(){
 <script type="text/javascript">
 	var _cookieOK = {accepted:false, showDecline:false, declined:false};
 	var _cookieOKcss = "'.plugin_dir_url(__FILE__).'css/cookieok-green.min.css";
-	var _cookieOKpos = "top";
+	var _cookieOKpos = "bottom";
 	var _cookieOKintro = "On 26 May 2011, the rules about cookies on websites changed. This site uses cookies. We have already set cookies which are essential for the operation of this site.";
 	var _cookieOKaccept = "I accept additional cookies from this site used to support optional features of the site or to gather anonymous usage statistics we use to improve the site";
 </script>
