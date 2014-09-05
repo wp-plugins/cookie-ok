@@ -60,15 +60,16 @@ Same as above but do a **Network Activate** to activate the cookie notification 
 1. Example of the cookie notice bar on http://cookieok.eu
 
 
-== Upgrade Notice ==
-
-
 == Changelog ==
 
 = 0.5 =
 
+Date: 05 Sept 2014
+Dev time: 3 hours
+
 * Update jQuery Cookie script to 1.4.1
 * Local stylesheet (adapted for Twenty Fourteen)
+* Slide effect, no reloading of page
 
 = 0.4 =
 
