@@ -41,7 +41,7 @@
 
 		$('#cookieok_check').change(function(){
 			if ($(this).prop("checked")){
-				$.cookie("_cookieok", "1", {path:'/', expires: 365*2 });
+				$.cookie("_cookieok", "1", {path:'/', expires: 365 });
 				$("#cookieok_bar").animate({height:'toggle'},'slow');
 			}
 		});
